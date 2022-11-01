@@ -39,7 +39,7 @@ function App() {
           <a href="http://slack.com" target="_blank" rel="noopener noreferrer">
             <img src={slack} alt="slack-icon" />
           </a>
-          <a href="https://github.com/Cheeh1" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/robynroby" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="github-icon" />
           </a>
         </div>
