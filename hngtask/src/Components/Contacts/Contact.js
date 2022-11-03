@@ -6,7 +6,7 @@ function Contact() {
     <div className='container'> 
         <div className="ctn-content">
         <h1>Contact Me</h1>
-        <p className='sopporting-text'>Hi there, contact me to ask me about anything you have in mind.</p>
+        <p className='supporting-text'>Hi there, contact me to ask me about anything you have in mind.</p>
 
         <form action="">
         <label htmlFor="">First name</label>

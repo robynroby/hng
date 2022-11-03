@@ -49,3 +49,16 @@ textarea{
     margin-top: 10px;
     font-size: 1rem;
 }
+
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
