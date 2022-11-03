@@ -1,5 +1,5 @@
 import "./Home.css";
-import { profile, github, slack, share, zuri, logo } from "../../assets";
+import { profile, github, slack, share} from "../../assets";
 
 function Home() {
   return (

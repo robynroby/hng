@@ -1,4 +1,5 @@
 import React from "react";
+import { zuri, logo } from "../../assets";
 import "./Footer.css";
 
 function Footer() {
