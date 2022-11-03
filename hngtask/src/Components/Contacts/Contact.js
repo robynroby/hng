@@ -4,6 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='container'> 
+        <div className="ctn-content">
         <h1>Contact Me</h1>
         <p className='sopporting-text'>Hi there, contact me to ask me about anything you have in mind.</p>
 
@@ -20,6 +21,7 @@ function Contact() {
         <button type='submit' id='btn__submit'>Send Message</button>
         </form>
 
+        </div>
     </div>
   )
 }
