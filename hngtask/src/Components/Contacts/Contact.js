@@ -9,10 +9,12 @@ function Contact() {
         <p className='supporting-text'>Hi there, contact me to ask me about anything you have in mind.</p>
 
         <form action="">
+        <div className="input-container">
         <label htmlFor="">First name</label>
         <input type="text" placeholder='Enter your first name' id='first_name'/>
         <label htmlFor="">Last name</label>
         <input type="text" placeholder='Enter your last name' id='last_name'/>
+        </div>
         <label htmlFor="">Email</label>
         <input type="email" placeholder='youremail@email.com' id='email'/>
         <label htmlFor="">Message</label>
