@@ -139,6 +139,8 @@ button:hover{
     background: #175CD3;
 }
 
+/* make sure you have the latest version of react installed */
+
 @media screen and (max-width: 1290px) and (min-width: 650px) {
   .input-container {
     flex-direction: column;
@@ -224,4 +226,4 @@ button:hover{
   button {
     width: 100%;
   }
-}
+} 
