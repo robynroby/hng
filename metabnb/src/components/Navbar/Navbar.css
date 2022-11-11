@@ -21,6 +21,11 @@
   line-height: 25px;
 }
 
+.navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .logo img {
   width: 188px;
 }
@@ -36,4 +41,11 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn button:hover {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  opacity: 0.8;
 }

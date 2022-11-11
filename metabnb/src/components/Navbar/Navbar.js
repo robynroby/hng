@@ -10,10 +10,10 @@ function Navbar() {
       </div>
       <div className="navbar">
         <ul>
-          <li>Home</li>
-          <li>Place to stay</li>
-          <li>NFTs</li>
-          <li>Community</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Place to stay</a></li>
+          <li><a href="">NFTs</a></li>
+          <li><a href="">Community</a></li>
         </ul>
       </div>
       <div className="btn"><button>Connect wallet</button></div>
