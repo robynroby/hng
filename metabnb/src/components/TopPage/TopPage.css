@@ -5,7 +5,7 @@
   width: 1300px;
   left: 0px;
   top: 0px;
-  margin: 90px auto;
+  margin: 78px auto;
 }
 
 .left h1 {
@@ -36,6 +36,7 @@
   width: 390px;
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #a3a3a3;
+  padding: 4px;
   border-radius: 8px 0px 0px 8px;
   outline: none;
 }
@@ -47,7 +48,7 @@
 }
 
 .left button {
-  height: 44px;
+  height: 53px;
   width: 230px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
   border-radius: 0px 8px 8px 0px;
