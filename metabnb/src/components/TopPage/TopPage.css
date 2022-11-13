@@ -47,7 +47,7 @@
   color: #b8b8b8;
 }
 
-.left button {
+.left .btn-landing{
   height: 53px;
   width: 230px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
@@ -58,7 +58,7 @@
   transition: all 0.3s ease;
 }
 
-.left button:hover {
+.left .btn-landing:hover {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
   opacity: 0.8;
 }
