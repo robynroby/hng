@@ -1,15 +1,25 @@
 .about-page {
   height: 774px;
-  width: 1440px;
+  width: 100vw;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
-  display: flex;
+    box-sizing: border-box;
+    display: flex
+}
+
+.about-page .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .about-page h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
+  /* line-height: 60px; */
   color: #fff;
 }
 
@@ -33,6 +43,26 @@
   color: #a02279;
 }
 
-.about-page img{
-    
+.about-page img:nth-child(1){
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    /* z-index: -1; */
+    margin: 0 0 0  200px ;
+ }
+
+.about-page img:nth-child(2){
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    z-index: 2;
+    margin: 300px 0 0 300px;
+ }
+
+.about-page img:nth-child(3){
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    z-index: 1;
+    margin: 200px 200px 0 0;
  }
