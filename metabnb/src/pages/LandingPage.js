@@ -1,5 +1,5 @@
 import React from "react";
-import './LandingPage.css'
+import "./LandingPage.css";
 import Navbar from "../components/Navbar/Navbar";
 import TopPage from "../components/TopPage/TopPage";
 import MiniFooter from "../components/MiniFooter/MiniFooter";
