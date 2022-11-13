@@ -17,9 +17,9 @@ function AboutPage() {
         <button className="about-btn">Learn more</button>
       </div>
       <div className="right">
-        <img src={image7} alt="" />
-        <img src={image8} alt="" />
         <img src={image9} alt="" />
+        <img src={image8} alt="" />
+        <img src={image7} alt="" />
       </div>
     </div>
   );

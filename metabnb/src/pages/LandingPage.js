@@ -5,6 +5,7 @@ import TopPage from "../components/TopPage/TopPage";
 import MiniFooter from "../components/MiniFooter/MiniFooter";
 import CardHolder from "../components/CardHolder/CardHolder";
 import AboutPage from "../components/AboutPage/AboutPage";
+import Footer from "../components/Footer/Footer";
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
         <MiniFooter />
         <CardHolder />
         <AboutPage />
+        <Footer />
       </div>
     </div>
   );
