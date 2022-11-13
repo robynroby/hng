@@ -19,8 +19,8 @@ function TopPage() {
           comfort zone
         </p>
         <div className="search-bar">
-          <input type="text" placeholder="Search for location" />
-          <button>Search</button>
+          <input  type="text" placeholder="Search for location" />
+          <button className="btn-landing">Search</button>
         </div>
       </div>
       <div className="right">
