@@ -7,3 +7,11 @@
   height: 70px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
+
+@media screen and (max-width: 768px){
+  .minifooter {
+    flex-direction: column;
+    gap: 0;
+    height: 140px;
+  }
+}
