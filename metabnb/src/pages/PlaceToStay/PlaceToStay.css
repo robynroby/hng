@@ -1,5 +1,5 @@
-section{
-    overflow: hidden;
+section {
+  overflow: hidden;
 }
 
 .filter ul {
@@ -40,14 +40,91 @@ section{
   padding: 1px 5px;
   text-align: center;
   height: 48px;
-  width: 161px;  
+  width: 161px;
   color: #333333;
   cursor: pointer;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .filter button:hover {
- background: #ffffff;
- border: 1px solid #ff6b08;
- box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border: 1px solid #ff6b08;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .filter ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 60px 40px 0;
+  }
+  .filter li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .filter ul li {
+    padding-bottom: 10px;
+  }
+  .filter button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+    border: 1px solid #b4b4b4;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 1px 5px;
+    text-align: center;
+    height: 48px;
+    width: 161px;
+    color: #333333;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+  .filter button:hover {
+    background: #ffffff;
+    border: 1px solid #ff6b08;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media screen and (max-width: 1290px) and (min-width: 650px){
+    .filter ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 70px 60px 40px 0;
+    }
+    .filter li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .filter button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+        border: 1px solid #b4b4b4;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 1px 5px;
+        text-align: center;
+        height: 48px;
+        width: 161px;
+        color: #333333;
+        cursor: pointer;
+        transition: all ease 0.5s;
+    }
+    .filter button:hover {
+        background: #ffffff;
+        border: 1px solid #ff6b08;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 }
