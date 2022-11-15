@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        
         <Route path="/placetostay" element={<PlaceToStay />} />
       </Routes>
     </Router>
@@ -22,3 +23,4 @@ function App() {
 }
 
 export default App;
+// router testing
