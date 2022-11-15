@@ -11,7 +11,7 @@ import card8 from "../../static/cards/card8.png";
 
 function CardHolder() {
   return (
-    <>
+    <div className="card-container">
       <h1>Inspiration for your next adventure</h1>
       <div className="card-holder">
         <div className="card">
@@ -135,7 +135,7 @@ function CardHolder() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

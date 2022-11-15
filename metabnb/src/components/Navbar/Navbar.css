@@ -26,9 +26,9 @@
   color: #000000;
 }
 
-.logo img {
+/* .logo img {
   width: 188px;
-}
+} */
 
 .btn button {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
@@ -48,4 +48,44 @@
 .btn button:hover {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .btn button {
+    width: 100px;
+  }
+}
+  
+@media screen and (max-width: 1290px) and (min-width: 650px){
+  .navbar-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .btn button {
+    width: 100px;
+  }
 }
