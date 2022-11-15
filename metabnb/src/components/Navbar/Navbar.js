@@ -11,16 +11,16 @@ function Navbar() {
       <div className="navbar">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/placetostay">Place to stay</a>
           </li>
           <li>
-            <a href="#">NFTs</a>
+            <a href="">NFTs</a>
           </li>
           <li>
-            <a href="#">Community</a>
+            <a href="">Community</a>
           </li>
         </ul>
       </div>
@@ -32,3 +32,4 @@ function Navbar() {
 }
 
 export default Navbar;
+// modal implimentation
