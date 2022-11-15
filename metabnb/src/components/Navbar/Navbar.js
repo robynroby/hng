@@ -17,10 +17,10 @@ function Navbar() {
             <a href="/placetostay">Place to stay</a>
           </li>
           <li>
-            <a href="#">NFTs</a>
+            <a href="">NFTs</a>
           </li>
           <li>
-            <a href="#">Community</a>
+            <a href="">Community</a>
           </li>
         </ul>
       </div>
