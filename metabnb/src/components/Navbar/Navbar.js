@@ -1,8 +1,14 @@
 import React from "react";
+import { useState } from "react";
 import "./Navbar.css";
+// import Button from "react-bootstrap/Button";
 import logo from "../../static/logo.png";
+// import Modal from "react-bootstrap/Modal";
+import Modal from "./Modal";
 
 function Navbar() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <div className="navbar-container">
       <div className="logo">
@@ -25,8 +31,15 @@ function Navbar() {
         </ul>
       </div>
       <div className="btn">
-        <button>Connect wallet</button>
+        <button
+          onClick={() => {
+            setModalOpen(true);
+          }}
+        >
+          Connect wallet
+        </button>
       </div>
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
     </div>
   );
 }
