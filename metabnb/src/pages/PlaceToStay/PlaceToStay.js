@@ -48,7 +48,9 @@ function PlaceToStay() {
           <li>
             <a href="">Farm</a>
           </li>
-          <button>Location <img src={setting} alt="" /></button>
+          <button>
+            Location <img src={setting} alt="" />
+          </button>
         </ul>
       </div>
       <div className="card-holder">
@@ -64,6 +66,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -79,6 +82,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -94,6 +98,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -109,6 +114,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -124,6 +130,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -139,6 +146,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -154,6 +162,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -169,6 +178,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -184,6 +194,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -199,6 +210,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -214,6 +226,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -229,6 +242,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -244,6 +258,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -259,6 +274,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -274,6 +290,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
@@ -289,6 +306,7 @@ function PlaceToStay() {
             <div className="right">
               <h4>1MBT per night</h4>
               <p>available for 2weeks stay</p>
+              <h3>stars</h3>
             </div>
           </div>
         </div>
